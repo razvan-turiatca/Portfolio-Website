@@ -31,6 +31,16 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
+### Dependencies
+
+- react-router-dom
+- sass
+- react-vertical-timeline-component (for displaying a timeline of events)
+- rc-progress (for progress bar)
+- react tsparticles
+- tsparticles
+- react-simple-animate
+
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.

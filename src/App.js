@@ -2,16 +2,17 @@ import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import Home from './containers/home/home'
 import About from './containers/about/about'
-import Contact from './containers/contact/contact.'
+import Contact from './containers/contact/contact'
 import Portfolio from './containers/portfolio/portfolio'
 import Resume from './containers/resume/resume'
 import Skills from './containers/skills/skills'
+import Navbar from './components/navbar/navbar'
 
 function App() {
   return (
     <div className="App">
       {/* particles js */}
-
+      <Navbar />
       {/* navbar component */}
 
       {/*main page content */}
