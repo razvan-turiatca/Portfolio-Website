@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { FaReact } from 'react-icons/fa'
+import { FaBars, FaReact } from 'react-icons/fa'
+import { HiX } from 'react-icons/hi'
 import { navMenus } from './navmenus'
 
+import './navbar.scss'
+
 const Navbar = () => {
+  const [showSidebar, setShowSidebar] = useState(false)
   return (
     <div>
       <nav className="navbar">
@@ -11,7 +15,13 @@ const Navbar = () => {
           <Link to={'/'} className="navbar--container-logo">
             <FaReact size={30} />
           </Link>
-          <ul className="navbar--container-menu">
+          <ul
+            className={
+              showSidebar
+                ? 'navbar--container-menu active'
+                : 'navbar--container-menu active'
+            }
+          >
             {navMenus.map((item, id) => {
               const { label, to } = item
 
@@ -24,6 +34,12 @@ const Navbar = () => {
               )
             })}
           </ul>
+          <div
+            className="nav-icon"
+            onClick={() => setShowSidebar(!showSidebar)}
+          >
+            {showSidebar ? <HiX size={30} /> : <FaBars size={30} />}
+          </div>
         </div>
       </nav>
     </div>
