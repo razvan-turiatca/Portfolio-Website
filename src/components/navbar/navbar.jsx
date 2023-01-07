@@ -19,7 +19,7 @@ const Navbar = () => {
             className={
               showSidebar
                 ? 'navbar--container-menu active'
-                : 'navbar--container-menu active'
+                : 'navbar--container-menu '
             }
           >
             {navMenus.map((item, id) => {
@@ -27,7 +27,7 @@ const Navbar = () => {
 
               return (
                 <li key={id} className="navbar--container-menu-item">
-                  <Link to={to} className="navbar--container-menu-links">
+                  <Link to={to} className="navbar--container-menu-item-links">
                     {label}
                   </Link>
                 </li>

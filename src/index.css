@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Rubik:wght@400;500;700&display=swap');
 
 :root {
-  /* --selected-theme-bgc: var(--yellow-theme-bgc)
-  --selected-theme-main-color: var(--yellow-theme-main-color)
-  --selected-theme-sub-text-color: var(--yellow-theme-sub-text-color)
-  --selecte-theme-nav-bgc: var(--yellow-theme-nav-bgc) */
+  --selected-theme-bgc: var(--yellow-theme-bgc);
+  --selected-theme-main-color: var(--yellow-theme-main-color);
+  --selected-theme-sub-text-color: var(--yellow-theme-sub-text-color);
+  --selected-theme-nav-bgc: var(--yellow-theme-nav-bgc);
 
   /* primary color yellow */
   --yellow-theme-bgc: #1d1d1d;
@@ -30,7 +30,6 @@ html {
 body {
   background: var(--yellow-theme-bgc);
   height: 100%;
-  color: white;
 }
 
 #root {
