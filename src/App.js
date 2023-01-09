@@ -10,7 +10,7 @@ import Skills from './containers/skills/skills'
 import Navbar from './components/navbar/navbar'
 import particlesConfig from './utilities/particlesConfig'
 
-import './App.css'
+import './App.scss'
 
 function App() {
   const particlesInit = async (main) => {
@@ -29,18 +29,22 @@ function App() {
           init={particlesInit}
         />
       )}
-      <Navbar />
-      {/* navbar component */}
 
-      {/*main page content */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/skills" element={<Skills />} />
-      </Routes>
+      <div className="App--navbar-wrapper">
+        <Navbar />
+      </div>
+      {/* navbar component */}
+      <div className="App--main-content-wrapper">
+        {/*main page content */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/skills" element={<Skills />} />
+        </Routes>
+      </div>
     </div>
   )
 }

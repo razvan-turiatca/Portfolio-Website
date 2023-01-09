@@ -1,10 +1,17 @@
 import React from 'react'
+import './home.scss'
 
 const Home = () => {
   return (
-    <div>
-      <h2>h</h2>
-    </div>
+    <section className="home" id="home">
+      <div className="home--text-wrapper">
+        <h1>
+          Hello, I'm Razvan
+          <br />
+          Front End Developer
+        </h1>
+      </div>
+    </section>
   )
 }
 
