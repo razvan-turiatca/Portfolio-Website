@@ -23,13 +23,13 @@ function App() {
   return (
     <div className="App">
       {/* particles js */}
-      {/* {location.pathname == '/' && (
+      {location.pathname == '/' && (
         <Particles
           id="particles"
           options={particlesConfig}
           init={particlesInit}
         />
-      )} */}
+      )}
 
       {/* navbar component */}
       <div className="App--navbar-wrapper">
