@@ -12,6 +12,24 @@
   --yellow-theme-sub-text-color: #fff;
   --yellow-theme-nav-bgc: #181818;
 
+  /* secondary color red */
+  --yellow-theme-bgc: #1d1d1d;
+  --red-theme-main-color: red;
+  --yellow-theme-sub-text-color: #fff;
+  --yellow-theme-nav-bgc: #181818;
+
+  /* secondary color red */
+  --yellow-theme-bgc: #1d1d1d;
+  --blue-theme-main-color: blue;
+  --yellow-theme-sub-text-color: #fff;
+  --yellow-theme-nav-bgc: #181818;
+
+  /* secondary color red */
+  --yellow-theme-bgc: #1d1d1d;
+  --green-theme-main-color: green;
+  --yellow-theme-sub-text-color: #fff;
+  --yellow-theme-nav-bgc: #181818;
+
   --font-base: 'Roboto Slab', serif;
 }
 
@@ -34,8 +52,4 @@ body {
 
 #root {
   height: 100%;
-}
-
-a {
-  text-decoration: none;
 }

@@ -8,6 +8,7 @@ import Portfolio from './containers/portfolio/portfolio'
 import Resume from './containers/resume/resume'
 import Skills from './containers/skills/skills'
 import Navbar from './components/navbar/navbar'
+import Theme from './components/themes/theme'
 import particlesConfig from './utilities/particlesConfig'
 
 import './App.scss'
@@ -22,20 +23,21 @@ function App() {
   return (
     <div className="App">
       {/* particles js */}
-      {location.pathname == '/' && (
+      {/* {location.pathname == '/' && (
         <Particles
           id="particles"
           options={particlesConfig}
           init={particlesInit}
         />
-      )}
+      )} */}
 
+      {/* navbar component */}
       <div className="App--navbar-wrapper">
         <Navbar />
       </div>
-      {/* navbar component */}
+      {/*main page content */}
       <div className="App--main-content-wrapper">
-        {/*main page content */}
+        <Theme />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

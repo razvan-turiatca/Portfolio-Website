@@ -37,6 +37,7 @@
         cursor: pointer;
         padding: 10px 70px;
         font-size: 2rem;
+        text-decoration: none;
         background-color: transparent;
         color: var(--selected-theme-main-color);
         border: 1.5px solid var(--selected-theme-main-color);
@@ -54,6 +55,11 @@
       svg {
         cursor: pointer;
         color: var(--selected-theme-main-color);
+        transition: all 0.03s ease-in;
+        &:hover {
+          transform: scale(1.2);
+          box-shadow: 0 3px 15px 3px #ffdc4034;
+        }
       }
     }
   }
