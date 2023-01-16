@@ -8,27 +8,32 @@
 
   /* primary color yellow */
   --yellow-theme-bgc: #1d1d1d;
-  --yellow-theme-main-color: #ffdd40;
+  /* --yellow-theme-main-color: #ffdd40; */
+  /* --yellow-theme-main-color: #fab005; */
+  --yellow-theme-main-color: #eab308;
   --yellow-theme-sub-text-color: #fff;
   --yellow-theme-nav-bgc: #181818;
 
   /* secondary color red */
-  --yellow-theme-bgc: #1d1d1d;
-  --red-theme-main-color: red;
-  --yellow-theme-sub-text-color: #fff;
-  --yellow-theme-nav-bgc: #181818;
+  --red-theme-bgc: #1d1d1d;
+  --red-theme-main-color: #dc2626;
+  /* --red-theme-main-color: #a61e4d; */
+  --red-theme-sub-text-color: #fff;
+  --red-theme-nav-bgc: #181818;
 
   /* secondary color red */
-  --yellow-theme-bgc: #1d1d1d;
-  --blue-theme-main-color: blue;
-  --yellow-theme-sub-text-color: #fff;
-  --yellow-theme-nav-bgc: #181818;
+  --blue-theme-bgc: #1d1d1d;
+  /* --blue-theme-main-color: #22b8cf; */
+  --blue-theme-main-color: #0284c7;
+  --blue-theme-sub-text-color: #fff;
+  --blue-theme-nav-bgc: #181818;
 
   /* secondary color red */
-  --yellow-theme-bgc: #1d1d1d;
-  --green-theme-main-color: green;
-  --yellow-theme-sub-text-color: #fff;
-  --yellow-theme-nav-bgc: #181818;
+  --green-theme-bgc: #1d1d1d;
+  --green-theme-main-color: #16a34a;
+  /* --green-theme-main-color: #20c997; */
+  --green-theme-sub-text-color: #fff;
+  --green-theme-nav-bgc: #181818;
 
   --font-base: 'Roboto Slab', serif;
 }
@@ -48,6 +53,7 @@ html {
 body {
   background: var(--yellow-theme-bgc);
   height: 100%;
+  font-family: var(--font-base);
 }
 
 #root {

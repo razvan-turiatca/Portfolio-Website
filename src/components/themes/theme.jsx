@@ -5,10 +5,10 @@ import { ImCog } from 'react-icons/im'
 import './theme.scss'
 
 const colorsArray = [
-  { id: 'yellow', bgColor: '#ffdd40' },
-  { id: 'red', bgColor: '#e82a2a' },
-  { id: 'green', bgColor: '#6ac045' },
-  { id: 'blue', bgColor: '#5078ff' },
+  { id: 'yellow', bgColor: '#fab005' },
+  { id: 'red', bgColor: '#a61e4d' },
+  { id: 'green', bgColor: '#20c997' },
+  { id: 'blue', bgColor: '#22b8cf' },
 ]
 
 const Theme = () => {
