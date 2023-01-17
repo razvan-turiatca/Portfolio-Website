@@ -71,19 +71,29 @@ const About = () => {
                 <SiJavascript
                   size={60}
                   color="var(--selected-theme-main-color)"
+                  className="about-icons"
                 />
               </div>
               <div>
-                <FaReact size={60} color="var(--selected-theme-main-color)" />
+                <FaReact
+                  size={60}
+                  color="var(--selected-theme-main-color)"
+                  className="about-icons"
+                />
               </div>
               <div>
                 <SiTypescript
                   size={60}
                   color="var(--selected-theme-main-color)"
+                  className="about-icons"
                 />
               </div>
               <div>
-                <FaSass size={60} color="var(--selected-theme-main-color)" />
+                <FaSass
+                  size={60}
+                  color="var(--selected-theme-main-color)"
+                  className="about-icons"
+                />
               </div>
             </div>
           </Animate>
